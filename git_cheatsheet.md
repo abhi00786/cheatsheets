@@ -43,3 +43,7 @@ git diff — Show unstaged changes
 
 
 git checkout -- <file> — Revert file to last commit
+
+# Restore Deleted Files****
+git restore
+
