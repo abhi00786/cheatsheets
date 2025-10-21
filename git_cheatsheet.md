@@ -13,9 +13,9 @@ git status — Show current changes/staging info
 
 git add <file> — Add a file to the staging area
 
-git add . — Add all files to the staging area
+git add . — Add all files to the staging area ( From Untracked to Staged)
 
-git commit -m "message" — Commit staged changes with a message
+git commit -m "message" — Commit staged changes with a message ( From Staged to Tracked)
 
 #Remote Repositories
 
@@ -40,5 +40,6 @@ git merge <branchname> — Merge another branch into current one
 git log — Show commit history
 
 git diff — Show unstaged changes
+
 
 git checkout -- <file> — Revert file to last commit
